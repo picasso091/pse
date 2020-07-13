@@ -1,0 +1,77 @@
+.body{
+   margin: 0;
+}
+.web{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(139, 55, 21);
+    color: white;
+    border-radius: 20px;
+    padding: 6px 10px 0px 10px;
+    margin:5px 5px 5px 5px ;
+    text-align: center;
+    
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 6px 10px 0px 10px;
+    margin:5px 5px 5px 5px ;
+}
+.box1{
+    border-radius: 5px;
+    border: 2px solid rgb(145, 124, 7);
+    margin: 10px 20px 30px 20px ;
+   
+    font-family: 'Comic Neue', cursive;
+    padding: 10px 10px 10px 10px;
+}
+.box1:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+.first{
+    margin: 0;
+    display: flex;
+    background-color: rgba(238, 238, 226, 0.993);
+    font-family: 'Comic Neue', cursive;
+    justify-content: center;
+    
+
+
+}
+.box{
+    margin: 5px 0 10px 0;
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 36px;
+    color: white;
+    width: 100%;
+   
+    background-color: rgb(41, 31, 42) ;
+    height: 35px;
+   
+    font-family: 'Comic Neue', cursive;
+}
+#nav{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#nav:hover{
+   color: rgb(241, 239, 102);
+
+} 
+
+    .current{
+        background-color: rgba(98, 71, 76);
+    
+    }
+ 

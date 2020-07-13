@@ -1,0 +1,129 @@
+#tower{
+    width: 30%;
+    height: 620px;
+    margin: 3px 3px;
+}
+
+body{
+    font-family: 'Comic Neue', cursive;
+    background-color: rgba(238, 238, 226, 0.993);
+    margin: 0;
+
+}
+.para{   
+width: 70%;
+font-size: 23px;
+
+margin-left: 10px;
+margin-right: 10px;
+padding:  2px 12px ;
+text-align: justify;
+padding-right: 10px;
+}
+
+.container1{
+    display: flex;
+     
+    
+}
+.first{
+    display: flex;
+  
+  
+
+}
+#anim{
+    display: inline-block;
+    background-color:  rgb(110, 98, 184);;
+    border-radius: 7px;
+    width: 31%;
+    height: 35px;
+    color: white;
+   
+    font-family: 'Lobster', cursive;
+  
+    font-size: 30px;
+    animation-name: topp;
+    margin-top:10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding-bottom: 8px ;
+    animation-duration:3s;
+    text-align: center;
+    animation-delay: 1ms;
+  
+}
+
+@keyframes topp{
+    0%{width: 30px;
+        height: 35px;
+    color:rgb(241, 138, 228) ;
+font-size: 0px;}
+15%{
+     width: 50px; 
+     height: 35px; 
+    /* color:rgb(241, 138, 228) ; */
+font-size: 0px;
+
+}
+30%{
+    width:30%;
+    height: 35px;
+    color: white;
+    font-size: 30px;
+}    
+}
+
+.box{
+    margin:10px 1px 20px 15px;
+    display: flex;
+    
+    font-size: 26px;
+    font-weight: bold;
+    padding: 5px 5px;
+    color: white;
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+   
+background-color: rgb(41, 31, 42) ;
+  
+   
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(241, 239, 102);
+
+}
+
+
+#word{
+    display: inline;
+    font-weight: bolder;
+}
+#question{
+    font-family: 'Comic Neue', cursive; 
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.current{
+    background-color: rgba(98, 71, 76);
+}
